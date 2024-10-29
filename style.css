@@ -1,0 +1,547 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #000;
+    font-size: 16px;
+    line-height: 27px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxed-list h3{ 
+    font-weight: bold;
+}
+
+/*Header Section Start-------------------------------*/
+
+.header{
+    width: 100%;
+    min-height: 35vh;
+    background: linear-gradient(to right, rgb(236, 235, 235,1), rgba(236, 235, 235, 1), rgba(236, 235, 235, 0.97), rgba(236, 235, 235, 0.85),rgba(236, 235, 235, 0.7)  ) ,url(./Assets/img/backgrounİmg.png) ,url(./Assets/img/backgrounİmg.png);
+    background-size: 100% 100%, 50% 100%;
+    background-position: center, right center;
+    background-repeat:no-repeat, no-repeat;  
+
+}
+
+.header .container {
+    width: 90%;
+    height: 35vh;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.header .container .left-section{
+    width: 80%;
+    height: 35vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .container .left-section .logo{
+    margin-right: 20px;
+    border: 3px solid lightgray;
+    box-shadow: 3px solid rgb(198, 196, 196);
+}
+
+.header .container .head-content img{
+    width: 15px;
+    height: 20px;
+}
+
+.header .container .right-section{
+    width: 20%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    bottom: 50px;
+}
+
+.header .container .right-section .left{
+    width: 70%;
+    height: 40px;
+    background-color: rgba(255, 110, 1, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.header .container .right-section .left a{
+    text-decoration: none;
+    color:white;
+   
+}
+
+.header .container .right-section .right{
+    width: 22%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.header .container .right-section .right img{
+    position: relative;
+    top: 5px;
+}
+
+
+
+.header .container .right-section .right a{
+    text-decoration: none;
+    color:rgb(122, 119, 119);
+   
+}
+
+
+
+.header .container .right-section .right ul, li{
+    display: none;
+}
+
+
+
+.header .container .left-section .logo{
+    width: 140px;
+    height: 140px;
+    display: flex;
+    
+}
+
+.header .container .left-section .right{
+    margin-left: 10px;
+}
+
+.header .container .left-section .right .title h1,h3{
+    font-weight: lighter;
+}
+
+.header .container .left-section .right .title h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: gray;
+}
+
+
+.header .container .left-section a{
+    text-decoration: none;
+    color: gray;
+}
+
+.header .container .left-section ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header .container .left-section ul li{
+    margin-right: 15px;
+    display: flex;
+}
+
+.header .container .left-section .socials a img{
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    
+}
+
+/*Header Section End-------------------------------*/
+
+/*About Us Section Start-------------------------------*/
+
+.article{
+    width: 100%;
+    min-height: 35vh;
+    background-color: white;
+
+}
+
+.article .container{
+    width: 80%;
+    display: block;
+    margin-left: 12%;
+    margin-right: 12%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.article .container .title-section h2{
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.article .content-section p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.article .content-section a{
+    text-decoration: none;
+    font-size: 21px;
+    color: rgba(255, 110, 1, 1);
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+}
+
+/*About Us Section End-------------------------------*/
+
+/* Main Section Start-------------------------------*/
+
+.main{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.main .container{
+    width: 80%;
+    display: block;
+    margin: auto;
+    background-color: white;
+  
+}
+
+            /*Main Nav section Start*/
+
+            .main .container nav .container{
+                width: 80%;
+                background-color: white(232, 76, 76);
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+            }
+
+            .main .container nav .container a{
+                margin: 5px;
+                padding: 10px;
+                background-color: #f2f2f2;
+                color: rgba(255, 110, 1, 1);
+                text-align: center;
+                font-weight: bold;
+                text-decoration: none;
+                border: 1px solid #e6e6e6;
+                border-radius: 50px;
+            }
+
+            .main .container nav .container a .bottom{
+                display: block;
+            }
+
+            .main .container .boxed-list{
+                display: flex;
+                flex-flow: column nowrap;
+            }
+
+            /*Main Nav section End*/
+
+           
+
+            /*Main menu head section Start*/
+
+
+
+            .main section .container{
+                width: 100%;
+                background-color:  #f2f2f2;
+                margin-bottom: 20px;
+                border-radius: 4px;
+                display: flex;
+                color:rgb(0, 0, 0) ;
+            }  
+
+            .main .boxed-list.alt-kategori .container {
+                background-color: #e6e6e6;
+               }
+            
+
+            .main section .container .menu-head{
+                width: 100%;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+                padding: 20px 35px;
+            }
+
+
+            .main section .container .menu-title{
+                display: flex;
+    
+            }
+
+            .main section .container .menu-title img{
+                margin-right: 5px;
+            }
+
+            .main section .container .menu-title h3{
+                font-weight: lighter;
+            }
+
+            .main section .container .menu-icon{
+                display: flex;
+            }
+
+            .main section .container .menu-icon img{
+                margin-left: 5px;
+            }
+
+           
+            
+            
+            /*Main maenu head section End*/
+
+            /*Main maenu card section Start*/
+
+
+
+            .main  .boxed-list .menu-article .menu{
+                width: 100%;
+                background-color: pink;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .main  .boxed-list .menu-article .menu .container{
+                width: 100%;
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            main  .boxed-list .menu-article .menu .container .card{
+                margin-right: 20px;
+                width: 23%;
+                height: 350px;
+                border: 1px solid rgb(255, 255, 255);
+                display: flex;
+                flex-flow: column nowrap;
+                
+                
+            }
+
+           
+
+            main  .boxed-list .menu-article .menu .container .card .card-img {
+                width: 100%;
+                height: 50%;
+                
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .card-img img {
+                width: 100%;
+                height: 200px;
+                
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .title{
+                width: 100%;
+                background-color: white;
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .title p{
+                font-weight: bold;
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .content{
+                display: flex;
+                flex-flow: row nowrap;
+                justify-content: space-between;
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .content p{
+                width: 80%;
+                font-size: 14px;
+             }
+             
+             main  .boxed-list .menu-article .menu .container .card .content a{
+                width: 40px;
+                height: 30px;
+                background-color: rgba(255, 110, 1, 1);
+                color: white;
+                text-decoration: none;
+                text-align: center;
+                font-size: 13px;
+                padding: 5px;
+                border-radius: 4px;
+             }
+
+             main  .boxed-list .menu-article .menu .container .card .card-footer{
+                display: flex;
+             }
+
+        
+            /*Main maenu card section End*/
+
+
+/*Main Section End-------------------------------*/
+
+/*Footer Section Start-------------------------------*/
+
+.footer{
+    width: 100%;
+    min-height: 15vh;
+    background-color: black;
+}
+
+.footer .container{
+    width: 80%;
+    min-height: 15vh;
+    display: block;
+    margin: auto;
+    color: lightgray;
+}
+
+.footer .container .content-section{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer .container .content-section a{
+    text-decoration: none;
+    color: lightgray;
+}
+
+
+/*Footer Section End-------------------------------*/
+
+/*Media Querys Start--------------------------------*/
+
+@media screen and (max-width: 1150px ){
+    main  .boxed-list .menu-article .menu .container .card{
+        width: 45%;
+    }
+
+    .header .container .left-section .socials a img{
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+        
+    }
+
+    .article .container{
+        margin-bottom: 60px;
+    }
+
+    .main .container nav .container{
+        width: 100%;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 1000px){
+    .header .container .left-section {
+        flex-flow: column nowrap;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width: 980px){
+    .header{
+        min-height: 65vh; 
+        display: flex;  
+    }
+
+    .header .container{
+        min-height: 65vh;
+    }
+
+    .header .container .head-content img{
+        width: 15px;
+        height: 20px;
+    }
+
+    .header .container .left-section{
+        flex-flow: column nowrap;
+    }
+
+    .header .container .right  .head-content{
+        width: 130%;
+    }
+
+    .header .container .left-section  .left .logo{
+        position: relative;
+        right: 85%;
+    }
+
+    .header .container .left-section  .right{
+        position: relative;
+        left: 12.5%;
+        top: 15px;
+    }  
+
+    .header .container .right-section {
+        width: 50%;
+        position: relative;
+        float:inline-end;
+        bottom: 50%;
+    }
+
+    .header .container .right-section .left{
+        width: 200px;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 572px){
+    main  .boxed-list .menu-article .menu .container .card{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        margin-bottom: 15px;
+    }
+
+    .article .container{
+        margin-bottom: 60px;
+    }
+
+    .main .container nav .container{
+        width: 100%;
+    }
+
+    
+    
+}
